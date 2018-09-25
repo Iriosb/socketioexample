@@ -1,0 +1,42 @@
+2018-09-25 22:32:17 pid:1 Worker process terminated with ERROR: E_ERROR "Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Parser\Encoder.php on line 70"
+2018-09-25 22:56:05 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function emit() on null in C:\xampp\htdocs\simple_chat\server.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Event\Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Nsp.php(102): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#7 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Eng in C:\xampp\htdocs\simple_chat\server.php on line 16"
+2018-09-25 23:00:54 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function emit() on null in C:\xampp\htdocs\simple_chat\server.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Event\Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Nsp.php(102): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#7 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Eng in C:\xampp\htdocs\simple_chat\server.php on line 16"
+2018-09-26 00:44:23 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function emit() on null in C:\xampp\htdocs\simple_chat\server.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Event\Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Nsp.php(102): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#7 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Eng in C:\xampp\htdocs\simple_chat\server.php on line 16"
+2018-09-26 00:45:13 pid:1 Worker process terminated with ERROR: E_ERROR "Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Engine\Socket.php on line 278"
+2018-09-26 00:48:05 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\simple_chat\server.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Event\Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Nsp.php(102): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 C:\xampp\htdocs\simple_chat\vendor\workerman\phpsocket.io\src\SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#7 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engin in C:\xampp\htdocs\simple_chat\server.php on line 16"
